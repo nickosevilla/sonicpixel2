@@ -1,0 +1,59 @@
+/* perfil-jugador.page.scss */
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.profile-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-details {
+  font-size: 16px;
+  color: #777;
+}
+
+.profile-stats {
+  text-align: center;
+}
+
+ion-card {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+ion-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ion-card-content {
+  font-size: 16px;
+}
+
+/* Estilos para las nuevas secciones */
+ion-list-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}

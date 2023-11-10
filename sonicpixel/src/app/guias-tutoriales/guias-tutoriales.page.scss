@@ -1,0 +1,22 @@
+/* news.css */
+ion-list {
+    ion-item {
+      ion-thumbnail {
+        max-width: 100px;
+        max-height: 100px;
+      }
+  
+      ion-label {
+        h2 {
+          font-size: 16px;
+          font-weight: bold;
+        }
+  
+        p {
+          font-size: 14px;
+          color: #555;
+        }
+      }
+    }
+  }
+  

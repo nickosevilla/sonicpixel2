@@ -1,0 +1,69 @@
+.store-content {
+  --background: #1E1E1E;
+  color: #fff;
+}
+
+ion-toolbar {
+  --background: #000;
+  --color: #fff;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.custom-card {
+  border-radius: 10px;
+  background-color: #2A2A2A;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.item-image {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.custom-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF4500;
+}
+
+.custom-card-subtitle {
+  font-size: 18px;
+}
+
+.custom-card-content {
+  padding: 10px;
+}
+
+.custom-button {
+  margin-top: 10px;
+  font-weight: bold;
+  --color: #fff;
+  --background: #FF4500;
+}
+
+ion-button[color="dark"] {
+  --background: #FF4500;
+  --color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ion-button[color="dark"]:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-header {
+  margin-top: 20px;
+}
